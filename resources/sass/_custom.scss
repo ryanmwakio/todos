@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../fonts/Lato-Regular.ttf);
+
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+
+html,body {
+    font-family: Lato-Regular;
+    font-size: 13px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.timestamp{
+    font-size: 10px;
+}
+
+.border-right-danger {
+    border-right: 1px solid #e3342f;
+}
+
+.border-left-danger {
+    border-left: 1px solid #e3342f;
+}
+
+.border-radius-md{
+    border-radius: 7px;
+}
